@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ReduxUIKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ReduxUIKit.'
+  s.summary          = 'Swift extension of UIKit for Redux.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
