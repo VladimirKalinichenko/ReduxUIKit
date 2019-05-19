@@ -1,0 +1,6 @@
+framework module ReduxUIKit {
+  umbrella header "ReduxUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ReduxUIKit (0.1.0)
+
+DEPENDENCIES:
+  - ReduxUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  ReduxUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReduxUIKit: 9692d2139614c13972c5bea7f226db9b1e28e5cc
+
+PODFILE CHECKSUM: 3971215c7b77aedc93941c2bee38b23c34725b12
+
+COCOAPODS: 1.6.1
