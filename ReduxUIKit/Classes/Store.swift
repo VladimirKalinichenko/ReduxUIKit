@@ -73,18 +73,6 @@ class Store<State> {
     private func notifyListeners() {
         listeners.forEach { $0.storeUpdated(store: self) }
     }
-    
-}
-
-public
-protocol Middleware {
-    func dispatch<State>(_ store: Store<State>, _ action: Any, next: (Any) -> ())
-}
-
-public
-protocol StoreListener: class {
-    associatedtype State
-    func storeUpdated(store: Store<State>)
 }
 
 fileprivate class StoreContainer {
@@ -111,5 +99,3 @@ fileprivate class AnyStoreListerner<State>: StoreListener {
         }
     }
 }
-
-
