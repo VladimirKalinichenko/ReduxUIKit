@@ -12,7 +12,7 @@ public
 class Store<State> {
     
     public
-    init(initialState: State, reducer: @escaping (State, Any) -> State, middlewares: [Middleware] = []) {
+    init(initialState: State, reducer: @escaping (State, Any) -> State, middlewares: [Middleware<State>] = []) {
         assert(StoreContainer.store == nil, "Store already initialized")
         self.state = initialState
         self.reducer = reducer
@@ -49,12 +49,12 @@ class Store<State> {
 
     private let dispatchQueue = DispatchQueue(label: "Store syncing queue")
     private let reducer: (State, Any) -> State
-    private let middlewares: [Middleware]
+    private let middlewares: [Middleware<State>]
     private var listeners: [AnyStoreListerner<State>] = []
     
     private func dispatch(_ action: Any,
                           state: State,
-                          middlewares: [Middleware],
+                          middlewares: [Middleware<State>],
                           middlewareIndex: Int = 0) {
         guard middlewares.count > middlewareIndex else {
             self.state = reducer(state, action)
