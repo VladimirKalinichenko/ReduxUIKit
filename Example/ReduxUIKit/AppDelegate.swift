@@ -18,7 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let store = Store<AppState>(
             initialState: AppState(bool: false),
-            reducer: appReducer
+            reducer: appReducer,
+            middlewares: [
+                MyMiddleware(),
+            ]
         )
         
         self.window = UIWindow()
@@ -77,5 +80,13 @@ class PresentRouter {
         )
         thisVC = secondStoreConnector.makeView()
         vc.present(thisVC, animated: true)
+    }
+}
+
+class MyMiddleware: Middleware<AppState> {
+    override func dispatch(_ store: Store<AppState>, _ action: Any, next: (Any) -> Void) {
+        print("My state was \(store.state.bool)")
+        next(action)
+        print("Now my state is \(store.state.bool)")
     }
 }

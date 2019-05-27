@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 public
 protocol StoreListener: class {
     associatedtype State
