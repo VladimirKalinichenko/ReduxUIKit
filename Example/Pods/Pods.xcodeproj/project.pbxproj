@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		04FA3B5F411E5ED5E9661ECDA3830756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		0FE1E0D34FC42C82D1C6B92AD5457F80 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCC3A9A32F9D9E97D90B825F6644BE /* StoreViewController.swift */; };
+		1B754F705DE64945FA79BE19095C6851 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB0BC0F0250484FAA0A52308CE99BE /* StoreView.swift */; };
 		1CB866C7F4D7D52DC709E3E0761537F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		3EB1DC9FB830105EA55C769B81B8F8EA /* Pods-ReduxUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCABE58145A61B5F20D5B134270F425 /* Pods-ReduxUIKit_Tests-dummy.m */; };
-		47B72A04C7A06650966D9BE685B84181 /* ReduxUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F5878ED66A44F2CEAD446A609DFCF /* ReduxUIKit-dummy.m */; };
 		6AA46ED0C7A7CA15AD52A36D16A0FE48 /* Pods-ReduxUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D40CA7B6340645C8EE777430EDC959 /* Pods-ReduxUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82CAA2667996D69FCD3DC695FE7F7AB3 /* Pods-ReduxUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6721CB2F88D890EADF1380383A172EF /* Pods-ReduxUIKit_Example-dummy.m */; };
-		95C5D83C704A4604B99E5EF86E83A69A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27FA85F2C7E494B4674A0DC5AC41A5F /* ReplaceMe.swift */; };
 		A4318C74FC9FFDC65739560E85FABCD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		B00B0C20147CDD9037E87BB6B10872D0 /* ReduxUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6E5B66F0F32A2AA9A875C26EA706B8 /* ReduxUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B00B0C20147CDD9037E87BB6B10872D0 /* ReduxUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C7D58F487B1B37821FE58E908BC265 /* ReduxUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2EF1B998DC0D1D29BD39EFAD43FB0A0 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3265327848BCCE89F5C99744649212 /* Store.swift */; };
 		C9B6251014D5B605C3DAE89EE277FCB5 /* Pods-ReduxUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E5F74A19027A9169A70F91B206BBDB /* Pods-ReduxUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7ED55585E38B6E0E66AEC01E12CA4A8 /* StoreConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFB9732AF918F4FBA49950A50582DA /* StoreConnector.swift */; };
+		FC6D847BF6E0E64EA481494A01D8CC27 /* ReduxUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A1DFF1DE46B9A1D4C016735720B12 /* ReduxUIKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,36 +41,39 @@
 
 /* Begin PBXFileReference section */
 		002CFF45703833C5A01AF367169FC4E4 /* Pods-ReduxUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReduxUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0112599702866111F031BEB85E8228BB /* ReduxUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReduxUIKit.xcconfig; sourceTree = "<group>"; };
+		04AB0BC0F0250484FAA0A52308CE99BE /* StoreView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreView.swift; path = ReduxUIKit/Classes/StoreView.swift; sourceTree = "<group>"; };
+		091C4DFDFAD2700F61510A0E80854D72 /* ReduxUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReduxUIKit.modulemap; sourceTree = "<group>"; };
+		14F375AD2E339EF9700AA97FE876DD36 /* ReduxUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReduxUIKit-prefix.pch"; sourceTree = "<group>"; };
 		15AE364052BE9FC0B458261D3A9D1515 /* Pods-ReduxUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReduxUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2597A6BA0591B9EF6631F46948CCAAD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2A0381D868EACD66154AABC0D98D8257 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26DCC3A9A32F9D9E97D90B825F6644BE /* StoreViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreViewController.swift; path = ReduxUIKit/Classes/StoreViewController.swift; sourceTree = "<group>"; };
 		34E5F74A19027A9169A70F91B206BBDB /* Pods-ReduxUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReduxUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		4AF5078EDD2AB854C52CF0D32FB9546A /* Pods-ReduxUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReduxUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		526E3B32D72907A0CA798AE646E9F36A /* Pods-ReduxUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReduxUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		566489C888626CDA42EB7A6457C0C696 /* ReduxUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReduxUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566489C888626CDA42EB7A6457C0C696 /* ReduxUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReduxUIKit.framework; path = ReduxUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		581AFB53D85FA4AC1AFBC0F22AB0920F /* Pods-ReduxUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReduxUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		64D40CA7B6340645C8EE777430EDC959 /* Pods-ReduxUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReduxUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6BEFB9732AF918F4FBA49950A50582DA /* StoreConnector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreConnector.swift; path = ReduxUIKit/Classes/StoreConnector.swift; sourceTree = "<group>"; };
 		6CCABE58145A61B5F20D5B134270F425 /* Pods-ReduxUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReduxUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		794C52BEF28F78103C23803C3E28886B /* Pods-ReduxUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReduxUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7A7F5878ED66A44F2CEAD446A609DFCF /* ReduxUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReduxUIKit-dummy.m"; sourceTree = "<group>"; };
-		87757F8CC34E21FEDAFAE49BF9CF0BBD /* ReduxUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReduxUIKit.modulemap; sourceTree = "<group>"; };
 		903169CD9F94E49423961ACDFFA36135 /* Pods-ReduxUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReduxUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		927112ED34A2E21F88D84B961DE4BA5D /* Pods-ReduxUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReduxUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D0FC9BB2658AA97FAE024010012E3E /* ReduxUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReduxUIKit.xcconfig; sourceTree = "<group>"; };
 		A8F17C079329347C022C59AA61DE8015 /* Pods-ReduxUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReduxUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B5F8F477B9663EA3478C939ABED88244 /* Pods_ReduxUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7B654645C0491C22AD5347E0A19B3ED /* Pods_ReduxUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C27FA85F2C7E494B4674A0DC5AC41A5F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ReduxUIKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B03B33BB207F998E5216C0C80210117A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B5F8F477B9663EA3478C939ABED88244 /* Pods_ReduxUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReduxUIKit_Tests.framework; path = "Pods-ReduxUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B654645C0491C22AD5347E0A19B3ED /* Pods_ReduxUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReduxUIKit_Example.framework; path = "Pods-ReduxUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9A1DFF1DE46B9A1D4C016735720B12 /* ReduxUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReduxUIKit-dummy.m"; sourceTree = "<group>"; };
 		C368FDC31894120B6847BB54C8FB7F8D /* Pods-ReduxUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReduxUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C370CDEE1185B986ECEA9E6A92A898CC /* Pods-ReduxUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReduxUIKit_Example-Info.plist"; sourceTree = "<group>"; };
 		C6721CB2F88D890EADF1380383A172EF /* Pods-ReduxUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReduxUIKit_Example-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD5FBC1B3930D43783679A1FABF01DC9 /* ReduxUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReduxUIKit-Info.plist"; sourceTree = "<group>"; };
-		D5E08D9317C51158638F8FBF02D892AA /* ReduxUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReduxUIKit-prefix.pch"; sourceTree = "<group>"; };
-		DC6E5B66F0F32A2AA9A875C26EA706B8 /* ReduxUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReduxUIKit-umbrella.h"; sourceTree = "<group>"; };
+		D6C21AA4A96796396736C265B97325C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D6E1B876F71598A7B753812A77B8EEC9 /* ReduxUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ReduxUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D9170FF43F405735D5EDA68CD39FAEF0 /* ReduxUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReduxUIKit-Info.plist"; sourceTree = "<group>"; };
+		E5C7D58F487B1B37821FE58E908BC265 /* ReduxUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReduxUIKit-umbrella.h"; sourceTree = "<group>"; };
+		EE3265327848BCCE89F5C99744649212 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ReduxUIKit/Classes/Store.swift; sourceTree = "<group>"; };
 		EEA89129FD0E1C156F7523AE47D1321E /* Pods-ReduxUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReduxUIKit_Example.modulemap"; sourceTree = "<group>"; };
-		FEC1E1C8F29E3AB011E336886646A547 /* ReduxUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ReduxUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		FF149B2530A912AF7830BE7F2A7F15B5 /* Pods-ReduxUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReduxUIKit_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E23BD5D49851D8DDCD41A332A928B1C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A08839BE12CC1874AC45C2CD1378877 /* ReduxUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		2E710AD4E499C3A8617F6AFB6F73245A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,30 +120,6 @@
 				7A366A1946B71EA6A0BDB6827FF772BF /* Pods-ReduxUIKit_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		343E8A2F335D559331C451879E2B375E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				87757F8CC34E21FEDAFAE49BF9CF0BBD /* ReduxUIKit.modulemap */,
-				0112599702866111F031BEB85E8228BB /* ReduxUIKit.xcconfig */,
-				7A7F5878ED66A44F2CEAD446A609DFCF /* ReduxUIKit-dummy.m */,
-				CD5FBC1B3930D43783679A1FABF01DC9 /* ReduxUIKit-Info.plist */,
-				D5E08D9317C51158638F8FBF02D892AA /* ReduxUIKit-prefix.pch */,
-				DC6E5B66F0F32A2AA9A875C26EA706B8 /* ReduxUIKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ReduxUIKit";
-			sourceTree = "<group>";
-		};
-		3AF179769144EDE59D8ABDFB7B3F5E97 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2597A6BA0591B9EF6631F46948CCAAD5 /* LICENSE */,
-				2A0381D868EACD66154AABC0D98D8257 /* README.md */,
-				FEC1E1C8F29E3AB011E336886646A547 /* ReduxUIKit.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		7A366A1946B71EA6A0BDB6827FF772BF /* Pods-ReduxUIKit_Tests */ = {
@@ -148,12 +138,28 @@
 			path = "Target Support Files/Pods-ReduxUIKit_Tests";
 			sourceTree = "<group>";
 		};
-		7E80355C772A3F7A362A71FD6EFCFF92 /* Development Pods */ = {
+		9335AC28C9037D91CFFAE5D1DF7AF5F8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D472E128200C558878DBF58E1E35682C /* ReduxUIKit */,
+				D6C21AA4A96796396736C265B97325C8 /* LICENSE */,
+				B03B33BB207F998E5216C0C80210117A /* README.md */,
+				D6E1B876F71598A7B753812A77B8EEC9 /* ReduxUIKit.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9A08839BE12CC1874AC45C2CD1378877 /* ReduxUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE3265327848BCCE89F5C99744649212 /* Store.swift */,
+				6BEFB9732AF918F4FBA49950A50582DA /* StoreConnector.swift */,
+				04AB0BC0F0250484FAA0A52308CE99BE /* StoreView.swift */,
+				26DCC3A9A32F9D9E97D90B825F6644BE /* StoreViewController.swift */,
+				9335AC28C9037D91CFFAE5D1DF7AF5F8 /* Pod */,
+				AA1D99962B25646DDD2813641CC282D1 /* Support Files */,
+			);
+			name = ReduxUIKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -164,11 +170,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		AA1D99962B25646DDD2813641CC282D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				091C4DFDFAD2700F61510A0E80854D72 /* ReduxUIKit.modulemap */,
+				A0D0FC9BB2658AA97FAE024010012E3E /* ReduxUIKit.xcconfig */,
+				BA9A1DFF1DE46B9A1D4C016735720B12 /* ReduxUIKit-dummy.m */,
+				D9170FF43F405735D5EDA68CD39FAEF0 /* ReduxUIKit-Info.plist */,
+				14F375AD2E339EF9700AA97FE876DD36 /* ReduxUIKit-prefix.pch */,
+				E5C7D58F487B1B37821FE58E908BC265 /* ReduxUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ReduxUIKit";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7E80355C772A3F7A362A71FD6EFCFF92 /* Development Pods */,
+				1E23BD5D49851D8DDCD41A332A928B1C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D9803428E1E47C254459DE226ECA9DEB /* Products */,
 				2E710AD4E499C3A8617F6AFB6F73245A /* Targets Support Files */,
@@ -181,17 +201,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D472E128200C558878DBF58E1E35682C /* ReduxUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				C27FA85F2C7E494B4674A0DC5AC41A5F /* ReplaceMe.swift */,
-				3AF179769144EDE59D8ABDFB7B3F5E97 /* Pod */,
-				343E8A2F335D559331C451879E2B375E /* Support Files */,
-			);
-			name = ReduxUIKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D9803428E1E47C254459DE226ECA9DEB /* Products */ = {
@@ -256,7 +265,7 @@
 			buildConfigurationList = F5BE8D5A3DB18E211EF9B3F98CA84A45 /* Build configuration list for PBXNativeTarget "ReduxUIKit" */;
 			buildPhases = (
 				CDBFFFC551EE3615164F75CBABF2295A /* Headers */,
-				0BFD4766BEBA700F5A418F839BAFA6E2 /* Sources */,
+				CF14EA94B5D5D7ACB58672996A021223 /* Sources */,
 				97323FCF95ED9046D933F5B9412EA51D /* Frameworks */,
 				DAF7460AC6768CAACE2D298CABB59779 /* Resources */,
 			);
@@ -321,7 +330,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -361,15 +369,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BFD4766BEBA700F5A418F839BAFA6E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47B72A04C7A06650966D9BE685B84181 /* ReduxUIKit-dummy.m in Sources */,
-				95C5D83C704A4604B99E5EF86E83A69A /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		95FB2042F4E4CE6999A19CB2404F6491 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,6 +382,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CAA2667996D69FCD3DC695FE7F7AB3 /* Pods-ReduxUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF14EA94B5D5D7ACB58672996A021223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6D847BF6E0E64EA481494A01D8CC27 /* ReduxUIKit-dummy.m in Sources */,
+				C2EF1B998DC0D1D29BD39EFAD43FB0A0 /* Store.swift in Sources */,
+				E7ED55585E38B6E0E66AEC01E12CA4A8 /* StoreConnector.swift in Sources */,
+				1B754F705DE64945FA79BE19095C6851 /* StoreView.swift in Sources */,
+				0FE1E0D34FC42C82D1C6B92AD5457F80 /* StoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,37 +415,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3C5B79F92C9907B84C1FB749CE05F6E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0112599702866111F031BEB85E8228BB /* ReduxUIKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ReduxUIKit/ReduxUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReduxUIKit/ReduxUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReduxUIKit/ReduxUIKit.modulemap";
-				PRODUCT_MODULE_NAME = ReduxUIKit;
-				PRODUCT_NAME = ReduxUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5EA14C6ABE5835A0F24FA973FA5BB796 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AF5078EDD2AB854C52CF0D32FB9546A /* Pods-ReduxUIKit_Example.debug.xcconfig */;
@@ -468,9 +448,9 @@
 			};
 			name = Debug;
 		};
-		7603180B4474498B6B797D466AFCCE99 /* Release */ = {
+		67F91EF625AC26A8D52DF3A99B94726D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0112599702866111F031BEB85E8228BB /* ReduxUIKit.xcconfig */;
+			baseConfigurationReference = A0D0FC9BB2658AA97FAE024010012E3E /* ReduxUIKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -492,7 +472,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -665,6 +645,37 @@
 			};
 			name = Release;
 		};
+		C07713E71ABD8893A5991726CA698C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D0FC9BB2658AA97FAE024010012E3E /* ReduxUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReduxUIKit/ReduxUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReduxUIKit/ReduxUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReduxUIKit/ReduxUIKit.modulemap";
+				PRODUCT_MODULE_NAME = ReduxUIKit;
+				PRODUCT_NAME = ReduxUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -718,7 +729,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -757,8 +769,8 @@
 		F5BE8D5A3DB18E211EF9B3F98CA84A45 /* Build configuration list for PBXNativeTarget "ReduxUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C5B79F92C9907B84C1FB749CE05F6E2 /* Debug */,
-				7603180B4474498B6B797D466AFCCE99 /* Release */,
+				C07713E71ABD8893A5991726CA698C7B /* Debug */,
+				67F91EF625AC26A8D52DF3A99B94726D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,7 +1,7 @@
 {
   "name": "ReduxUIKit",
   "version": "0.1.0",
-  "summary": "A short description of ReduxUIKit.",
+  "summary": "Swift extension of UIKit for Redux.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/VladimirKalinichenko/ReduxUIKit",
   "license": {
@@ -15,6 +15,7 @@
     "git": "https://github.com/VladimirKalinichenko/ReduxUIKit.git",
     "tag": "0.1.0"
   },
+  "swift_version": "4.2",
   "platforms": {
     "ios": "8.0"
   },

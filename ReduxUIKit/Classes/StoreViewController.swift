@@ -56,7 +56,7 @@ class StoreViewController<State, ViewModel>: UIViewController, StoreView {
     open
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        onStoreUpdate(vm: viewModel)
+        storeUpdated(store: Store<State>.current())
     }
 }
 

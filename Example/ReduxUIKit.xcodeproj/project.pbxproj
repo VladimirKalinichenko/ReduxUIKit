@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1EEE9050DC007BBC3FBE5F25 /* ReduxUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ReduxUIKit.podspec; path = ../ReduxUIKit.podspec; sourceTree = "<group>"; };
+		1EEE9050DC007BBC3FBE5F25 /* ReduxUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReduxUIKit.podspec; path = ../ReduxUIKit.podspec; sourceTree = "<group>"; };
 		2C32AF4E3F57E038B20277C8 /* Pods-ReduxUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ReduxUIKit_Example/Pods-ReduxUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		35F88547CCACEFD4162718EB /* Pods-ReduxUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ReduxUIKit_Example/Pods-ReduxUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ReduxUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* ReduxUIKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReduxUIKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		805C295CB5F1C76C2B41C8DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		805C295CB5F1C76C2B41C8DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C715B7EE8E139D86F00BE49 /* Pods-ReduxUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ReduxUIKit_Tests/Pods-ReduxUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A050E10F97C63196331E580C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A050E10F97C63196331E580C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AE24A9A0F48B7A8002102720 /* Pods-ReduxUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReduxUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ReduxUIKit_Tests/Pods-ReduxUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFA7E19A2DCE1EAB840FE3B4 /* Pods_ReduxUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2C4A966D5FC017A99C98DA /* Pods_ReduxUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +86,6 @@
 				8C715B7EE8E139D86F00BE49 /* Pods-ReduxUIKit_Tests.debug.xcconfig */,
 				AE24A9A0F48B7A8002102720 /* Pods-ReduxUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
